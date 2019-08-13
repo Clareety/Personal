@@ -1,0 +1,9 @@
+CREATE TABLE dbo.Transactions ( 
+date_new date,
+Id_check int,
+ID_client int,
+Count_products float(45),
+Sum_payment float(45))
+
+
+DROP TABLE [dbo].[Transactions]
